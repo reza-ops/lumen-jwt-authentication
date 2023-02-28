@@ -21,7 +21,7 @@ JWT atau Json Web Token adalah sebuah token menggunakan JSON, JWT bisa digunakan
     </li>
     <li>
         Jika sudah selesai setting anda bisa menjalankan lumen, Disini ada 3 route
-          <ul>
+        <ul>
             <li>
             Route Register :  menggunakan body <br>
             {<br>
@@ -29,8 +29,6 @@ JWT atau Json Web Token adalah sebuah token menggunakan JSON, JWT bisa digunakan
                 "email" : "admin@mail.com",<br>
                 "password" : "123456"<br>
             }<br>
-            Contoh API Register: 
-            ![image](https://user-images.githubusercontent.com/52590303/221747335-a730b8ea-8c03-4817-add2-0dc624bee306.png)
             </li>
         </ul>
         <ul>
@@ -40,13 +38,11 @@ JWT atau Json Web Token adalah sebuah token menggunakan JSON, JWT bisa digunakan
                 "email" : "admin@mail.com",<br>
                 "password" : "123456"<br>
             }<br>
-            Contoh API Login: 
-            ![image](https://user-images.githubusercontent.com/52590303/221747541-b70f4cb3-8152-4cd1-b846-cf751bb930ee.png)
             </li>
         </ul>
         <ul>
             <li>
-            Route Get User Profile :  tidak menggunakan body tetapi memakai header <br>
+            Route Get User Profile :  tidak menggunakan body tetapi memakai Authorization <br>
                 <ul>
                     <li>
                         Jalankan route login/register untuk mendapatkan token
@@ -59,12 +55,15 @@ JWT atau Json Web Token adalah sebuah token menggunakan JSON, JWT bisa digunakan
                     </li>
                     <li>
                         Masuk ke Authorization dan pilih type "Bearer Token"
-                        ![image](https://user-images.githubusercontent.com/52590303/221748166-eff0755f-d3c2-49b5-9efd-b76d7dd9f2a9.png)
+                    </li>
+                    <li>
+                       Paste token
                     </li>
                     <li>
                        Kemudian Send, jika token cocok maka akan keluar informasi user
-                       ![image](https://user-images.githubusercontent.com/52590303/221748313-d8954032-fe47-4d76-943b-f8bc85a0a911.png)
-                 </li>
-         </ul>
-     </li>
+                    </li>
+                 </ul>
+            </li>
+        </ul>
+    </li>
 </ul>
